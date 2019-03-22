@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package Modelo.Cartas.Cartas_Acto;
+import Modelo.Fases.Fase;
 import Modelo.Lugares.Lugar;
 import Modelo.Investigador;
 
@@ -12,8 +13,8 @@ import Modelo.Investigador;
  * @author pecorte
  */
 public class Atrapados extends Carta_Acto {
-    public Atrapados() {
-        super("Atrapados", false, 0);
+    public Atrapados(Fase fase) {
+        super(fase, "Atrapados", false, 0);
         coste=2;
         add=false;
         pretexto="Tampoco era un verdadero hogar. ¡Quemémoslo!";
