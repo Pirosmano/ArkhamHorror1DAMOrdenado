@@ -3,11 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Modelo;
+package Modelo.Cartas.CartasEvento;
 
-import Controlador.Fase;
-import Lugar.Lugar;
-import Lugar.Lugares;
+import Modelo.Fases.Fase;
+
+import Modelo.Cartas.CartasInvestigador.Evento;
+import Modelo.Investigador;
+import Modelo.Lugares.Lugar;
 import Vista.Vista;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,7 +19,7 @@ import java.util.Scanner;
  *
  * @author Miguel
  */
-public class CartaExplosionDeDInamita extends CartasInvestigador.Evento{
+public class CartaExplosionDeDInamita extends Evento{
     Vista mensaje;
     Scanner sc;
     public CartaExplosionDeDInamita(Fase fase, String nombreCarta, boolean preparada, int fichaPerdicion, int voluntad, int intelecto, int habilidad, int combate, int comodin, int coste) {
@@ -75,3 +77,4 @@ public class CartaExplosionDeDInamita extends CartasInvestigador.Evento{
         }
     
     }
+}
