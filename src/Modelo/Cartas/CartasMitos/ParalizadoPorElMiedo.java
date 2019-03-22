@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package Modelo.Cartas.CartasMitos;
+import Modelo.Fases.Fase;
 import Modelo.Investigador;
 
 /**
@@ -13,8 +14,8 @@ import Modelo.Investigador;
 public class ParalizadoPorElMiedo extends Traicion {
     boolean activo=false;
 
-    public ParalizadoPorElMiedo(String nombreCarta, boolean preparada, int fichaPerdicion) {
-        super("Paralizado por el miedo", false, 0);
+    public ParalizadoPorElMiedo(Fase fase) {
+        super(fase,"Paralizado por el miedo", false, 0);
     }
     
     public void activarCarta(){
