@@ -20,7 +20,7 @@ import Modelo.Lugares.Pasillo;
 import Modelo.Lugares.Salita;
 import Modelo.Lugares.Sótano;
 import Modelo.Lugares.Ático;
-import Mazo_Plan_duplicado.MazoPlan;
+import Modelo.Cartas.CartasPlan.MazoPlan;
 import Modelo.Cartas.Cartas_Acto.MazoActo;
 import Modelo.Mazos.MazoEncuentros;
 import Modelo.Mazos.MazoInvestigador;

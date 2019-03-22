@@ -2,6 +2,7 @@ package Modelo;
 
 import Modelo.Personajes.RolandBanks;
 import Modelo.Cartas.CartasInvestigador.Apoyo;
+import Modelo.Fases.Fase;
 import java.util.Scanner;
 
 /**AUTOR ALEXANDRA**/
@@ -13,8 +14,8 @@ public class CartaPrimerosAuxilios extends Apoyo{
     RolandBanks roland;
     Scanner sc = new Scanner(System.in);
     
-    public CartaPrimerosAuxilios(){
-        super("Primeros Auxilios",false,0,1, 0, 0, 0, 0, 0, 0, 2, 3, false);
+    public CartaPrimerosAuxilios(Fase fase,String nombreCarta,boolean preparada,int fichaPerdicion,int voluntad, int intelecto, int combate, int habilidad, int comodin, int vida, int cordura, int coste, int suministro, boolean comprada){
+        super(fase,"Primeros Auxilios",false,0,1, 0, 0, 0, 0, 0, 0, 2, 3, false);
     }
     
     public void Accion(Investigador investigador){
