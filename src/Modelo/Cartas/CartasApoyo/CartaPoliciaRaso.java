@@ -7,6 +7,7 @@ package Modelo.Cartas.CartasApoyo;
 import Modelo.Enemigos.Enemigo;
 import Modelo.Cartas.CartasInvestigador.Apoyo;
 import Modelo.Investigador;
+import Modelo.Fases.Fase;
 /**
  *
  * @author Jacinto
@@ -16,8 +17,8 @@ public class CartaPoliciaRaso extends Apoyo {
     Investigador investigador;
     
 
-    public CartaPoliciaRaso(String nombreCarta, boolean preparada, int voluntad, int intelecto, int combate, int habilidad, int comodin, int vida, int cordura, int coste, int suministro, boolean comprada) {
-        super("Policia Raso",false,0, 0, 1, 0, 0, 2, 2, 4, 0,0, false);
+    public CartaPoliciaRaso(Fase fase, String nombreCarta, boolean preparada, int voluntad, int intelecto, int combate, int habilidad, int comodin, int vida, int cordura, int coste, int suministro, boolean comprada) {
+        super(fase, "Policia Raso",false,0, 0, 1, 0, 0, 2, 2, 4, 0,0, false);
     }
 
     @Override

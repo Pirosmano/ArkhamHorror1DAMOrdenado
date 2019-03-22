@@ -1,7 +1,9 @@
-package Modelo;
+package Modelo.Cartas.CartasApoyo;
 
 import Modelo.Personajes.RolandBanks;
 import Modelo.Cartas.CartasInvestigador.Apoyo;
+import Modelo.Fases.Fase;
+import Modelo.Investigador;
 import java.util.Scanner;
 
 /**AUTOR ALEXANDRA**/
@@ -13,25 +15,25 @@ public class CartaPrimerosAuxilios extends Apoyo{
     RolandBanks roland;
     Scanner sc = new Scanner(System.in);
     
-    public CartaPrimerosAuxilios(){
-        super("Primeros Auxilios",false,0,1, 0, 0, 0, 0, 0, 0, 2, 3, false);
+    public CartaPrimerosAuxilios(Fase fase,String nombreCarta,boolean preparada,int fichaPerdicion,int voluntad, int intelecto, int combate, int habilidad, int comodin, int vida, int cordura, int coste, int suministro, boolean comprada){
+        super(fase,"Primeros Auxilios",false,0,1, 0, 0, 0, 0, 0, 0, 2, 3, false);
     }
     
     public void Accion(Investigador investigador){
         while(suministros>0){
             // Prueba de habilidad para voluntad
 
-            roland.numeroRecursos=roland.numeroRecursos-2;
+            investigador.setNumeroRecursos(investigador.getNumeroRecursos()-2);
 
             System.out.println("Escribe 1 para curarte un punto de daño o 2 para curarte un punto de horror.");
             int respuesta=sc.nextInt();
             switch(respuesta){
                 case 1: 
-                    roland.vida=+1;
+                    investigador.setVida(vida+1);
                     suministros--;
                 break;
                 case 2:
-                    roland.horror=-1;
+                    investigador.setVida(vida-1);
                     suministros--;
                 break;
                 
