@@ -2,6 +2,7 @@ package Modelo;
 
 import Modelo.Enemigos.Enemigo;
 import Modelo.Cartas.CartasInvestigador.Apoyo;
+import Modelo.Fases.Fase;
 import java.util.Scanner;
 
 /** @author carlos */
@@ -19,9 +20,10 @@ public class CartaAutomaticaDel45 extends Apoyo{
     
     Scanner sc = new Scanner(System.in);
     
-    public CartaAutomaticaDel45(){
-      super("Automatica de 45",false,0, 0, 0, 0, 1, 0, 0, 0, 4, 4, false);        
+    public CartaAutomaticaDel45(Fase fase){
+      super(fase,"Automatica de 45",false,0, 0, 0, 0, 1, 0, 0, 0, 4, 4, false);        
     }
+    
     
     @Override
     public void Accion(Investigador investigador){

@@ -4,6 +4,7 @@ package Modelo.Cartas.CartasHabilidad;
 * Autor: Juan Martin Ayala
 */
 import Modelo.Cartas.CartasInvestigador.Habilidad;
+import Modelo.Fases.Fase;
 import Modelo.Investigador;
 import Modelo.Fases.*;
 import modelohabilidad_bloqueado.PruebaHabilidad;

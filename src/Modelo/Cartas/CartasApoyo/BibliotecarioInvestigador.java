@@ -9,7 +9,7 @@ import Modelo.Cartas.CartasInvestigador.Apoyo;
 import Modelo.Acciones.uso_descarte_cartas;
 import Modelo.Cartas.CartasInvestigador.CartasInvestigador;
 import Modelo.Investigador;
-
+import Modelo.Fases.Fase;
 /**
  *
  * @author JACINTO
@@ -18,8 +18,8 @@ public class BibliotecarioInvestigador extends Apoyo  {
     uso_descarte_cartas mano;
     MazoInvestigador mazo;
     CartasInvestigador carta; 
-    public BibliotecarioInvestigador(String nombreCarta, boolean preparada, int voluntad, int intelecto, int combate, int habilidad, int comodin, int vida, int cordura, int coste, int suministro, boolean comprada) {
-        super("Bibliotecario Investigador", false, 0, 0, 0, 1, 0, 1, 1, 2, 0, 0, false);
+    public BibliotecarioInvestigador(Fase fase,String nombreCarta, boolean preparada, int voluntad, int intelecto, int combate, int habilidad, int comodin, int vida, int cordura, int coste, int suministro, boolean comprada) {
+        super(fase,"Bibliotecario Investigador", false, 0, 0, 0, 1, 0, 1, 1, 2, 0, 0, false);
     }
     @Override
     public void Accion(Investigador investigador){
