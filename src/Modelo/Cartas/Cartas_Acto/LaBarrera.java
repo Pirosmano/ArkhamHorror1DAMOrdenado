@@ -28,7 +28,7 @@ public class LaBarrera extends Carta_Acto {
 
     @Override
     public void Accion(Investigador investigador) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //La carta no esta creada
     }
     
 }
