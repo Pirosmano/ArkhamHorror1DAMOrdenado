@@ -6,6 +6,7 @@
 package Modelo.Cartas.CartasEvento;
 import Modelo.Cartas.CartasInvestigador.Evento;
 import Modelo.Lugares.Lugar;
+import Modelo.Fases.Fase;
 
 /**
  *
@@ -17,8 +18,8 @@ public abstract class Barricada extends Evento {
     String barricada;
     boolean puesta = false;
     
-    public Barricada(){
-        super("Barricada",false,0,1,1,1,0,0,0);
+    public Barricada(Fase fase){
+        super(fase,"Barricada",false,0,1,1,1,0,0,0);
     }
     
     public void usarCarta(String lugar){
