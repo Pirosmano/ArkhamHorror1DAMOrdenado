@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package Modelo.Cartas.CartasMitos;
+import Modelo.Fases.Fase;
 import Modelo.Investigador;
 
 /**
@@ -11,8 +12,8 @@ import Modelo.Investigador;
  * @author pecorte
  */
 public class AntiguosMales extends Traicion {
-    public AntiguosMales(String nombreCarta, boolean preparada, int fichaPerdicion) {
-        super("Antiguos Males", false, 1);
+    public AntiguosMales(Fase fase) {
+        super(fase, "Antiguos Males", false, 1);
     }
 
     @Override

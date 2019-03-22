@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Modelo.Cartas.Cartas_Acto;
-
+import Modelo.Fases.Fase;
 import Modelo.Investigador;
 
 /**
@@ -12,8 +12,8 @@ import Modelo.Investigador;
  * @author alumno
  */
 public class LaBarrera extends Carta_Acto {
-    public LaBarrera() {
-        super("La barrera", false, 0);
+    public LaBarrera(Fase fase) {
+        super(fase, "La barrera", false, 0);
         coste=3;
         add=false;
         pretexto="Una brillante barrera os bloquea el paso hacia la salita. Al acercaros, un intenso calor os obliga a retroceder. Cogéis algo de tierra y la lanzáis contra la barrera, donde para vuestro horror queda totalmente incinerada. Puede que en el sótano o el ático haya algo que os sirva de ayuda.";
@@ -28,7 +28,7 @@ public class LaBarrera extends Carta_Acto {
 
     @Override
     public void Accion(Investigador investigador) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        //La carta no esta creada
     }
     
 }

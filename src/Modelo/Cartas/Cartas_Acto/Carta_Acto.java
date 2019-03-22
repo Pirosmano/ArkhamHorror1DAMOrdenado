@@ -5,6 +5,7 @@
  */
 package Modelo.Cartas.Cartas_Acto;
 import Modelo.Cartas.Carta;
+import Modelo.Fases.Fase;
 
 /**
  *
@@ -18,8 +19,8 @@ public abstract class Carta_Acto extends Carta {
     String objetivo;
     String texto;    
 
-    public Carta_Acto(String nombreCarta, boolean preparada, int fichaPerdicion) {
-        super(nombreCarta, preparada, fichaPerdicion);
+    public Carta_Acto(Fase fase, String nombreCarta, boolean preparada, int fichaPerdicion) {
+        super(fase, nombreCarta, preparada, fichaPerdicion);
     }
 
     
