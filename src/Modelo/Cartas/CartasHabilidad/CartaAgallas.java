@@ -2,6 +2,7 @@
 package Modelo.Cartas.CartasHabilidad;
 import Modelo.Acciones.uso_descarte_cartas;
 import Modelo.Cartas.Carta;
+import Modelo.Fases.Fase;
 import Modelo.Investigador;
 
 public class CartaAgallas extends Carta{
@@ -17,8 +18,8 @@ public class CartaAgallas extends Carta{
     
     uso_descarte_cartas udc = new uso_descarte_cartas();
     
-    public CartaAgallas(){
-        super("Agallas", false,0);
+    public CartaAgallas(Fase fase){
+        super(fase,"Agallas", false,0);
     }
     
     public void instrucciones(){

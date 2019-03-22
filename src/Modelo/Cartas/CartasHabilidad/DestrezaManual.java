@@ -7,6 +7,7 @@ package Modelo.Cartas.CartasHabilidad;
 import Modelo.Cartas.CartasInvestigador.Habilidad;
 import Modelo.Mazos.MazoEncuentros;
 import modelohabilidad_bloqueado.PruebaHabilidad;
+import Modelo.Fases.Fase;
 /**
  *
  * @author imanol
@@ -18,8 +19,8 @@ public abstract class DestrezaManual extends Habilidad {
 
     
     
-    public DestrezaManual(){
-        super("Destreza Manual",false,0,0, 0, 2, 0, 0);
+    public DestrezaManual(Fase fase){
+        super(fase,"Destreza Manual",false,0,0, 0, 2, 0, 0);
     }
     
     
