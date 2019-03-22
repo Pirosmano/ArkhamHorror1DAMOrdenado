@@ -1,8 +1,9 @@
-package Modelo;
+package Modelo.Cartas.CartasEvento;
 
 import Modelo.Personajes.RolandBanks;
 import Modelo.Cartas.CartasInvestigador.Evento;
 import Modelo.Fases.Fase;
+import Modelo.Investigador;
 import java.util.Scanner;
 
 /**AUTOR ALEXANDRA**/
@@ -14,8 +15,8 @@ public class CartaAlijoEmergencia extends Evento{
     int numVeces=2; //Ya que tiene 2 veces la carta en el mazo
     Scanner sc=new Scanner(System.in);
 
-    public CartaAlijoEmergencia() {
-        super(this.fase, "Alijo de Emergencia",false,0,0,0,0,0,0,0);
+    public CartaAlijoEmergencia(Fase fase){
+        super(fase,"Alijo de Emergencia",false,0,0,0,0,0,0,0);
     }
 
     
@@ -25,11 +26,11 @@ public class CartaAlijoEmergencia extends Evento{
         int respuesta=sc.nextInt();
         switch(respuesta){
             case 1: 
-                roland.numeroRecursos=roland.numeroRecursos+3;
+                investigador.setNumeroRecursos(investigador.getNumeroRecursos()+3);
             break;
             
             case 2:
-                roland.numeroRecursos=roland.numeroRecursos+6;
+                investigador.setNumeroRecursos(investigador.getNumeroRecursos()+6);
             break;
                 
             default:
