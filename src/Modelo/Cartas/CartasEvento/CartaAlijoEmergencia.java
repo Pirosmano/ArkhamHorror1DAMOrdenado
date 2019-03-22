@@ -1,6 +1,6 @@
 package Modelo.Cartas.CartasEvento;
 
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 import Modelo.Cartas.CartasInvestigador.Evento;
 import Modelo.Fases.Fase;
 import Modelo.Investigador;

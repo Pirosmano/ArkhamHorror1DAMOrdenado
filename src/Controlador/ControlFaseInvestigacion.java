@@ -16,7 +16,7 @@ import Modelo.Cartas.CartasPlan.CartaPlan;
 import Modelo.Enemigos.Enemigo;
 import Modelo.Investigador;
 import Modelo.Mazos.MazoInvestigador;
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 import Vista.VistaFaseInvestigacion;
 import java.util.Iterator;
 import java.util.Scanner;

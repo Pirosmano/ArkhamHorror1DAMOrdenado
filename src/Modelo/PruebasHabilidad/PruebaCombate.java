@@ -8,7 +8,7 @@ package Modelo.PruebasHabilidad;
 import Modelo.BolsaDelCaos.BolsaDelCaos;
 import Modelo.Cartas.CartasInvestigador.Apoyo;
 import Modelo.Enemigos.Enemigo;
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 import Vista.Vista;
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package Modelo.Personajes;
+package Modelo;
 import Modelo.Personaje;
 import Modelo.Lugares.Lugar;
 import Modelo.Lugares.Lugares;

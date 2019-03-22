@@ -24,7 +24,7 @@ import Modelo.Cartas.CartasPlan.MazoPlan;
 import Modelo.Cartas.Cartas_Acto.MazoActo;
 import Modelo.Mazos.MazoEncuentros;
 import Modelo.Mazos.MazoInvestigador;
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import Modelo.Enemigos.Enemigo;

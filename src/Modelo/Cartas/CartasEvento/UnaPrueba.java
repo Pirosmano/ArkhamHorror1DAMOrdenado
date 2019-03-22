@@ -3,7 +3,7 @@ package Modelo.Cartas.CartasEvento;
 import Modelo.Cartas.CartasInvestigador.Evento;
 import Modelo.Fases.Fase;
 import Modelo.Investigador;
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 public class UnaPrueba extends Evento{
     
     RolandBanks roland;

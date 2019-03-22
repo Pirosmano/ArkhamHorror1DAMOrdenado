@@ -10,7 +10,7 @@ import Modelo.Cartas.CartasMitos.Traicion;
 import Modelo.Fases.Fase;
 import Modelo.Investigador;
 import Modelo.Investigador;
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 import java.util.ArrayList;
 
 /**

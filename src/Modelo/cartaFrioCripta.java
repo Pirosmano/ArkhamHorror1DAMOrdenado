@@ -4,7 +4,6 @@ import Modelo.Acciones.uso_descarte_cartas;
 import java.util.Scanner;
 import Modelo.Cartas.CartasMitos.Traicion;
 import modelohabilidad_bloqueado.PruebaVoluntad;
-import Modelo.Personajes.RolandBanks;
 public class cartaFrioCripta extends Traicion {
     Scanner entrada = new Scanner(System.in);
     uso_descarte_cartas mano;

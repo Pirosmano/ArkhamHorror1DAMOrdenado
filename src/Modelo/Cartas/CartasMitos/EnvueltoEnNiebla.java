@@ -2,7 +2,7 @@ package Modelo.Cartas.CartasMitos;
 /*
 * Autor: Juan Martin Ayala
 */
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 import Modelo.Cartas.CartasMitos.Traicion;
 import Modelo.Fases.*;
 import Modelo.Investigador;

@@ -10,7 +10,7 @@ import Modelo.Lugares.Pasillo;
 import Modelo.Enemigos.Enemigo;
 import Modelo.Investigador;
 //import Modelo.Personaje;
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 import java.util.ArrayList;
 //import java.util.LinkedList;
 

@@ -7,7 +7,7 @@ package ArkhamHorror;
 
 import Modelo.Cartas.CartasApoyo.CartaDrMilanChristopher;
 import Modelo.BolsaDelCaos.BolsaDelCaos;
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 import java.util.ArrayList;
 import Modelo.Cartas.CartasInvestigador.Apoyo;
 import Modelo.*;

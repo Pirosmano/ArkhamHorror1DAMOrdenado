@@ -1,6 +1,6 @@
 package Modelo.Cartas.CartasApoyo;
 
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 import Modelo.Cartas.CartasInvestigador.Apoyo;
 import Modelo.Investigador;
 import java.util.Scanner;

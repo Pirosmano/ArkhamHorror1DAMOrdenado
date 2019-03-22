@@ -13,7 +13,7 @@ package Modelo.Lugares;
 import Modelo.Mazos.MazoEncuentros;
 import Mazo_Plan_duplicado.MazoPlan;
 import Modelo.Cartas.*;
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 import Vista.vistaPlan;
 import java.util.ArrayList;
 import java.util.LinkedList;
