@@ -4,6 +4,7 @@ package Modelo.Cartas.CartasHabilidad;
 * Autor: Juan Martin Ayala
 */
 import Modelo.Cartas.CartasInvestigador.Habilidad;
+import Modelo.Fases.Fase;
 import Modelo.Investigador;
 import modelohabilidad_bloqueado.PruebaHabilidad;
         
@@ -11,8 +12,8 @@ public class CartaDeduccion extends Habilidad{
     
     PruebaHabilidad prueba;
     
-    public CartaDeduccion(){
-        super("Deduccion",false,0 ,0, 1, 0, 0, 0);  
+    public CartaDeduccion(Fase fase){
+        super(fase,"Deduccion",false,0 ,0, 1, 0, 0, 0);  
     }
     
     @Override
