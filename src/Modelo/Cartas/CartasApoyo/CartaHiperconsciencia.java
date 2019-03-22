@@ -4,13 +4,14 @@ package Modelo.Cartas.CartasApoyo;
 * Autor: Juan Martin Ayala
 */
 import Modelo.Cartas.CartasInvestigador.Apoyo;
+import Modelo.Fases.*;
 import Modelo.Investigador;
 import java.util.Scanner;
 
 public class CartaHiperconsciencia extends Apoyo {
 
-    public CartaHiperconsciencia() {
-        super("Hiperconsciencia",false,0 ,0 , 1, 0, 1, 0, 0, 0, 2, 0, false);
+    public CartaHiperconsciencia(Fase fase) {
+        super(fase,"Hiperconsciencia",false,0 ,0 , 1, 0, 1, 0, 0, 0, 2, 0, false);
     }
     
     public void restablecerValoresRoland(Investigador investigador){

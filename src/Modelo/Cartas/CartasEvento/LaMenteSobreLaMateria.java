@@ -1,6 +1,7 @@
 package Modelo.Cartas.CartasEvento;
 
 import Modelo.Cartas.CartasInvestigador.Evento;
+import Modelo.Fases.Fase;
 import Modelo.Investigador;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -9,8 +10,8 @@ public class LaMenteSobreLaMateria extends Evento {
 
     Controlador.Control investigar;
 
-    public LaMenteSobreLaMateria() {
-        super("La Mente Sobre La Materia", false, 0, 0, 0, 1, 1, 0, 1);
+    public LaMenteSobreLaMateria(Fase fase) {
+        super(fase,"La Mente Sobre La Materia", false, 0, 0, 0, 1, 1, 0, 1);
 
     }
 
