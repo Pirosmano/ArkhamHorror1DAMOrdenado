@@ -14,6 +14,7 @@ public abstract  class Carta {
     private boolean preparada;
     private int fichaPerdicion;
     private Fase fase;
+    
     public Carta(Fase fase,String nombreCarta, boolean preparada,int fichaPerdicion){
         this.nombreCarta = nombreCarta;
         this.preparada = preparada;
@@ -21,14 +22,7 @@ public abstract  class Carta {
         this.fase=fase;
     }
 
-    public Fase getFase() {
-        return fase;
-    }
-
-    public void setFase(Fase fase) {
-        this.fase = fase;
-    }
-    
+   
     public abstract void Accion(Investigador investigador);
 
     
@@ -57,6 +51,13 @@ public abstract  class Carta {
         this.fichaPerdicion = fichaPerdicion;
     }
     
+     public Fase getFase() {
+        return fase;
+    }
+
+    public void setFase(Fase fase) {
+        this.fase = fase;
+    }
     
     
     
