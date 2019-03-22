@@ -5,14 +5,15 @@ package Modelo.Cartas.CartasHabilidad;
 */
 import Modelo.Cartas.CartasInvestigador.Habilidad;
 import Modelo.Investigador;
+import Modelo.Fases.*;
 import modelohabilidad_bloqueado.PruebaHabilidad;
         
 public class CartaDeduccion extends Habilidad{
     
     PruebaHabilidad prueba;
     
-    public CartaDeduccion(){
-        super("Deduccion",false,0 ,0, 1, 0, 0, 0);  
+    public CartaDeduccion(Fase fase){
+        super(fase,"Deduccion",false,0 ,0, 1, 0, 0, 0);  
     }
     
     @Override

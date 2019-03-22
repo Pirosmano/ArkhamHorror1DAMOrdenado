@@ -4,6 +4,7 @@ package Modelo.Cartas.CartasMitos;
 */
 import Modelo.Personajes.RolandBanks;
 import Modelo.Cartas.CartasMitos.Traicion;
+import Modelo.Fases.*;
 import Modelo.Investigador;
 
 public class EnvueltoEnNiebla extends Traicion{
@@ -11,8 +12,8 @@ public class EnvueltoEnNiebla extends Traicion{
     RolandBanks roland;
     int contador=0;
     
-    public EnvueltoEnNiebla() {
-        super("EnvueltoEnNiebla", false, 0);
+    public EnvueltoEnNiebla(Fase fase) {
+        super(fase,"EnvueltoEnNiebla", false, 0);
     }
     
     @Override
