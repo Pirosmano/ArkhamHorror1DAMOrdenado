@@ -1,4 +1,4 @@
-package Modelo.Personajes;
+package Modelo;
 import Modelo.Personaje;
 import Modelo.Lugares.Lugar;
 import Modelo.Lugares.Lugares;
@@ -36,10 +36,7 @@ public class RolandBanks extends Investigador {
        
     }
 
-    @Override
-    public void moverPersonaje(ArrayList<Lugar> lugares, Personaje personaje, Lugares l) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    
 
  
   

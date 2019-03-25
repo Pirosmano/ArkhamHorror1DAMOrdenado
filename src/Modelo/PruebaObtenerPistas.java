@@ -2,7 +2,6 @@ package Modelo;
 /*
 * Autor: Juan Martin Ayala
 */
-import Modelo.Personajes.RolandBanks;
 import modelohabilidad_bloqueado.PruebaHabilidad;
 public class PruebaObtenerPistas {
 

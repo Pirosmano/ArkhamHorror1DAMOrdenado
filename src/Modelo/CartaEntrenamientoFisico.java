@@ -2,7 +2,6 @@
 package Modelo;
 //new Carta("Entrenamienti Fisico","Guardián",2,"Apoyo",1,1,0,0, false, "Talento");
 
-import Modelo.Personajes.RolandBanks;
 import Modelo.Cartas.CartasInvestigador.Apoyo;
 import Modelo.Fases.Fase;
 

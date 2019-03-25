@@ -5,6 +5,7 @@
  */
 package Modelo.Cartas.CartasApoyo;
 import Modelo.Cartas.CartasInvestigador.Apoyo;
+import Modelo.Fases.Fase;
 import Modelo.Investigador;
 
 /**
@@ -13,8 +14,8 @@ import Modelo.Investigador;
  */
 public class CartaSiguiendoUnaCorazonda extends Apoyo {
 
-    public CartaSiguiendoUnaCorazonda(String nombreCarta, boolean preparada, int fichaPerdicion, int voluntad, int intelecto, int combate, int habilidad, int comodin, int vida, int cordura, int coste, int suministro, boolean comprada) {
-        super("Siguiendo una Corazonada", false, 0, 0, 2, 0, 0, 0, 0, 0, 2, 0, false);
+    public CartaSiguiendoUnaCorazonda(Fase fase) {
+        super(fase, "Siguiendo una Corazonada", false, 0, 0, 2, 0, 0, 0, 0, 0, 2, 0, false);
     }
 
     @Override

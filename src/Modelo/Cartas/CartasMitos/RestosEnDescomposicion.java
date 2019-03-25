@@ -6,7 +6,7 @@
 package Modelo.Cartas.CartasMitos;
 
 import Modelo.Investigador;
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 
 /**
  *

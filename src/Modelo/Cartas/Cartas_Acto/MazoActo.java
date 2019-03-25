@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package Modelo.Cartas.Cartas_Acto;
+import Modelo.Fases.Fase;
 import Modelo.Investigador;
 import java.util.ArrayList;
 /**
@@ -14,11 +15,11 @@ public class MazoActo {
     ArrayList <Carta_Acto> mazo = new ArrayList();
     ArrayList <Carta_Acto> cartasused = new ArrayList();
 
-    public MazoActo() {
+    public MazoActo(Fase fase) {
         Carta_Acto c;
-        mazo.add(c=new LaBarrera());
-        mazo.add(c=new Atrapados());
-        mazo.add(c=new QueHabeisHecho());
+        mazo.add(c=new LaBarrera(fase));
+        mazo.add(c=new Atrapados(fase));
+        mazo.add(c=new QueHabeisHecho(fase));
     }
     
     public ArrayList <Carta_Acto> verCartas(){

@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package Modelo.Cartas.Cartas_Acto;
+import Modelo.Fases.Fase;
 import Modelo.Investigador;
 
 /**
@@ -13,8 +14,8 @@ import Modelo.Investigador;
 public class QueHabeisHecho extends Carta_Acto {
     String opc1="Tampoco era un verdadero hogar. ¡Quemémoslo!";
     String opc2="¡Este \"pozo infernal\" es mi hogar! ¡Ni hablar de quemarlo! ";
-    public QueHabeisHecho() {
-        super("¿Qué habéis hecho?", false, 0);
+    public QueHabeisHecho(Fase fase) {
+        super(fase, "¿Qué habéis hecho?", false, 0);
         coste=0;
         add=true;
         pretexto="En la salita hay una mujer con una antorcha y un brillo de odio en los ojos. —¿Qué le habéis hecho a mi barrera? —grita con furia. Antes de que podáis contestar, un espectral alarido suena a vuestra espalda, y una criatura vestida con túnica y una máscara hecha con el cráneo de un ciervo atraviesa la pared y avanza hacia vosotros.";

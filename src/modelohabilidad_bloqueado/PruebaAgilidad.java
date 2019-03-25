@@ -7,8 +7,7 @@ package modelohabilidad_bloqueado;
 
 import Modelo.BolsaDelCaos.BolsaDelCaos;
 import Modelo.Cartas.Carta;
-import Modelo.Cartas.BDCarta;
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 import java.util.ArrayList;
 import java.util.LinkedList;
 

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Modelo.Cartas.CartasPlan;
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 import java.util.Scanner;
 import Modelo.Acciones.uso_descarte_cartas;
 import java.util.Random;

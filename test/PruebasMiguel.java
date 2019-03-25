@@ -3,7 +3,7 @@ import Modelo.Fases.Fase;
 import Modelo.Lugares.Pasillo;
 import Modelo.Cartas.CartasEvento.CartaExplosionDeDInamita;
 import Modelo.Investigador;
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

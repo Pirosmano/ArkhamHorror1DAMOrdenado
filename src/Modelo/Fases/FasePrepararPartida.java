@@ -8,7 +8,7 @@ package Modelo.Fases;
 import Modelo.Fases.Fase;
 import Modelo.Acciones.uso_descarte_cartas;
 import Modelo.Lugares.Escenario;
-import Modelo.Personajes.RolandBanks;
+import Modelo.RolandBanks;
 import java.util.Collections;
 
 /**

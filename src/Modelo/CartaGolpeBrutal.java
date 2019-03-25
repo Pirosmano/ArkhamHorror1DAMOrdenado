@@ -3,7 +3,6 @@ package Modelo;
 //new Carta("Golpe brutal.","Guardián",0,"Habilidad",0,0,0,0, false, "Experimentado");
 // Si esta prueba de habilidad tiene éxito durante un ataque, dicho ataque inflige +1 de daño.
 
-import Modelo.Personajes.RolandBanks;
 import Modelo.Cartas.CartasInvestigador.Habilidad;
 import Modelo.Fases.Fase;
 
