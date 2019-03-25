@@ -47,7 +47,7 @@ public  class ElAccesoDeLosGules extends CartaPlan {
      public void usarCarta(){
         if( cp.getPerdicionEnJuego() >= cp.getPerdicion()){
 
-            me.restaurarMazo();
+            //me.restaurarMazo();
             me.barajar();
             
             while(robar==true){

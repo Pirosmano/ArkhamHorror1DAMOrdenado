@@ -5,7 +5,6 @@
  */
 package Modelo.Cartas.CartasPlan;
 import Modelo.Cartas.Carta;
-import Modelo.PruebasCombate;
 
 
 
