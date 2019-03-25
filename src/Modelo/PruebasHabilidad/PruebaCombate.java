@@ -5,13 +5,11 @@
  */
 package Modelo.PruebasHabilidad;
 
-import Modelo.BolsaDelCaos.BolsaDelCaos;
 import Modelo.Cartas.CartasInvestigador.Apoyo;
 import Modelo.Enemigos.Enemigo;
-import Modelo.RolandBanks;
+import Modelo.Investigador;
 import Vista.Vista;
 import java.util.ArrayList;
-import java.util.LinkedList;
 
 /**
  *
@@ -23,7 +21,7 @@ public class PruebaCombate {
     }
     
     //
-    public boolean enfrenta(Enemigo enemigo ,RolandBanks investigador,ArrayList<Apoyo> apoyo,int fichaCaos){
+    public boolean enfrenta(Enemigo enemigo ,Investigador investigador,ArrayList<Apoyo> apoyo,int fichaCaos){
         //Si gana el investigador el resultado es true y le resta la vida al enemigo, si es el enemigo el resultado es false y le resta vida al investigador
         boolean victoria=false;
         int puntosApoyo=0;
@@ -45,7 +43,7 @@ public class PruebaCombate {
     }
     //devuelve el daño del investigador
     
-   public int calculaDañoEnemigo(RolandBanks investigador){
+   public int calculaDañoEnemigo(Investigador investigador){
         
       return investigador.getDaño();
     }

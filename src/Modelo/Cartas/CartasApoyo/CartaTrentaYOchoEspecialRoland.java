@@ -8,7 +8,6 @@ import Modelo.Cartas.CartasInvestigador.Apoyo;
 import Modelo.Fases.Fase;
 import Modelo.Investigador;
 import Vista.Vista;
-import java.util.ArrayList;
 import Modelo.PruebasHabilidad.PruebaCombate;
 /**
  *

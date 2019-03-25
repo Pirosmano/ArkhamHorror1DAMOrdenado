@@ -11,7 +11,6 @@ import Modelo.Cartas.CartasInvestigador.Evento;
 import Modelo.Investigador;
 import Modelo.Lugares.Lugar;
 import Vista.Vista;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 

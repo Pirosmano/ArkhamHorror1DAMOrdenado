@@ -5,10 +5,8 @@
  */
 package Modelo.Cartas.CartasMitos;
 
-import Modelo.Cartas.Carta;
 import Modelo.Fases.Fase;
 import Modelo.Investigador;
-import Modelo.RolandBanks;
 import Vista.Vista;
 import modelohabilidad_bloqueado.PruebaAgilidad;
 
