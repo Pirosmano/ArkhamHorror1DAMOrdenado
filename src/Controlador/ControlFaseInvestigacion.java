@@ -11,7 +11,6 @@ import Modelo.Acciones.uso_descarte_cartas;
 import Modelo.Lugares.Lugar;
 import Modelo.Lugares.Lugares;
 import java.util.ArrayList;
-import Modelo.Cartas.BD;
 import Modelo.Cartas.CartasPlan.CartaPlan;
 import Modelo.Enemigos.Enemigo;
 import Modelo.Investigador;
@@ -26,7 +25,6 @@ import modelohabilidad_bloqueado.PruebaIntelecto;
 
 public class ControlFaseInvestigacion extends Fase{
     
-    private BD bd;
     private VistaFaseInvestigacion vista;
     private MazoInvestigador mazo;
     private boolean salir=false;
@@ -47,10 +45,6 @@ public class ControlFaseInvestigacion extends Fase{
     Evento evento;
     Apoyo apoyo;
     
-    public ControlFaseInvestigacion(){
-        bd=new BD();
-      
-    }
     
 //  MÉTODO NO IMPLEMENTADO 7. Jugar una carta de apoyo o evento (pagando su precio en recursos).
     
