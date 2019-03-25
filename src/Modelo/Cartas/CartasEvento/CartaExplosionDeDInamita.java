@@ -45,15 +45,16 @@ public class CartaExplosionDeDInamita extends Evento{
                     mensaje.muestraMensaje("Actualmente estas en: "+investigador.getLugar());
                     mensaje.muestraMensaje("Las zonas abyacentes a ti son: "+this.getFase().getLugares().getConexiones(investigador.getLugar()));
                     mensaje.muestraMensaje("Indica tu zona o una abyacente");
-                opcion=sc.next().toUpperCase();
+                
 
                     lugar.put("ESTUDIO", this.getFase().getEstudio());
                     lugar.put("PASILLO", this.getFase().getPasillo());
                     lugar.put("SALITA", this.getFase().getSalita());
                     lugar.put("SOTANO", this.getFase().getSotano());
                     lugar.put("ATICO", this.getFase().getAtico());
+                    opcion=sc.next();
                     lugar.get(opcion);
-                if(lugar.containsKey(opcion)){
+                if(lugar.containsKey(opcion.toUpperCase())){
                     correctodos=true;
                 }else{
                     mensaje.muestraMensaje("Esta zona no existe, prueba otra");
