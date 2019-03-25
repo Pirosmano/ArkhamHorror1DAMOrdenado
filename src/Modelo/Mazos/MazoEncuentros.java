@@ -8,6 +8,7 @@ package Modelo.Mazos;
 
 import Modelo.Cartas.Carta;
 import Modelo.Cartas.CartasMitos.*;
+import Modelo.Fases.Fase;
 import Modelo.Investigador;
 import java.util.Collections;
 import java.util.LinkedList;
@@ -24,13 +25,13 @@ public class MazoEncuentros {
  Investigador Roland;
   
   
-    public MazoEncuentros(Investigador Roland){
+    public MazoEncuentros(Investigador Roland, Fase fase){
     this.Mazo = new LinkedList();
     this.Roland=Roland;
-    AntiguosMales AntiguosMales = null;
-    ManosAferradoras  ManosAferradoras = null;
-    ParalizadoPorElMiedo ParalizadoPorElMiedo = null;
-    RestosEnDescomposicion RestosEnDescomposicion = null;
+    AntiguosMales AntiguosMales = new AntiguosMales(fase);
+    ManosAferradoras  ManosAferradoras = new ManosAferradoras(fase, true, 0);
+    ParalizadoPorElMiedo ParalizadoPorElMiedo = new ParalizadoPorElMiedo(fase);
+    RestosEnDescomposicion RestosEnDescomposicion = new RestosEnDescomposicion("RestosEnDescomposicion", false, 0);
             
             
     getMazo().add(AntiguosMales);
@@ -154,4 +155,5 @@ public class MazoEncuentros {
     
     
 }
+
 
