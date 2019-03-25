@@ -4,13 +4,11 @@ import Controlador.Control;
 import Controlador.ControlFaseInvestigacion;
 import java.util.ArrayList;
 import java.util.Scanner;
-import Modelo.Cartas.BD;
-import Modelo.Cartas.BDCarta;
+
 import Modelo.Mazos.MazoInvestigador;
 
 public class VistaFaseInvestigacion {
     Control control;
-    private BD bd;
     Scanner sc=new Scanner(System.in);
     int numRonda=1;
     int decisionesRestantes=3;
@@ -48,12 +46,6 @@ public class VistaFaseInvestigacion {
     public void mostrarMazos(ArrayList<MazoInvestigador> mazo){
         for(MazoInvestigador m: mazo){
             System.out.println(m.getNombre());
-        }
-    }
-    
-    public void mostrarCartas(ArrayList<BDCarta> cartas) {
-        for(BDCarta c: cartas){
-            System.out.println(c.toString());
         }
     }
 }
