@@ -44,9 +44,9 @@ public class Fase {
     private Lugar Atico = new Ático();
     private Lugares lugares = new Lugares(Estudio, Pasillo, Salita, Sotano, Atico);
     private BolsaDelCaos BolsaDelCaos = new BolsaDelCaos();
-    private MazoActo MazoActo = new MazoActo();
+    private MazoActo MazoActo = new MazoActo(this);
     private MazoPlan MazoPlan = new MazoPlan("Mazo");
-    private MazoEncuentros MazoEncuentro = new MazoEncuentros(Roland);
+    private MazoEncuentros MazoEncuentro = new MazoEncuentros(Roland, this);
     private MazoInvestigador MazoInvestigador = new MazoInvestigador();
     private uso_descarte_cartas UsoDeCartasInvestigador=new uso_descarte_cartas();
     private ArrayList<Apoyo> Apoyo=new ArrayList();
